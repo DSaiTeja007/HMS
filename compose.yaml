@@ -1,0 +1,8 @@
+services:
+  hospital-management:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hospital-management-system
+    stdin_open: true
+    tty: true
